@@ -15,6 +15,7 @@ let texts = [
     "Tak sie starasz dla mnie ✨",
     "Dziękuje za wszystko bardzooo 😭🤍",
     "Tylko przy tobie tak super sie czuje 🎉",
+    "Dla Ciebie próbuje sie starać 😭🤍",
     "Wiesz jak bardzo cie kocham 😘🤍",
     "Po głowie chodzi mi takie pytanko 🫣",
     "Proszeeeee 🤍😘✨",
