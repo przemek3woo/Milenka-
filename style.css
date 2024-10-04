@@ -1,0 +1,53 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff00f2, #00ffff);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    animation: bgmove 3s infinite;
+    animation-timing-function: ease-in-out;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@keyframes bgmove {
+    0% {
+        background-position: 0 100%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+p {
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#p {
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: rotateZ(-10deg) scale(1);
+    }
+
+    50% {
+        transform: rotateZ(10deg) scale(1);
+    }
+
+    100% {
+        transform: rotateZ(-10deg) scale(1);
+    }
+}
