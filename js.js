@@ -5,23 +5,7 @@ let i = 0
 let i2 = 0
 
 let texts = [
-    "Hejkaaa Piękna 😻",
-    "Tak do Ciebie mówie 😘",
-    "Kocham cie Mój Ty Króliczku 🥰",
-    "Naprawde tak sie cieszeee, że jesteś 🎉🎉🎉",
-    "Ty dajesz mi szczęście 🥰",
-    "Ty mnie szanujesz ⭐",
-    "Ty mnie akceptujesz 👏",
-    "Tak sie starasz dla mnie ✨",
-    "Dziękuje za wszystko bardzooo 😭🤍",
-    "Tylko przy tobie tak super sie czuje 🎉",
-    "Dla Ciebie próbuje sie starać 😭🤍",
-    "Wiesz jak bardzo cie kocham 😘🤍",
-    "Po głowie chodzi mi takie pytanko 🫣",
-    "Proszeeeee 🤍😘✨",
-    "Została byś Moją dziewczyną? 🫣😘🤍"
-    ]
-
+    "Hejkaaa Milili 🐧🥰", "Jak taaam? 💋🤍", "Jak sie lulało? 🥺✨", "Jakiś sen?", "Przyśniłem Ci sie? 🫣🫣", "Kocham ciee 💋💍", "Nie budziłaś sie w nocy? 🥺🤍", "Opowiedz wszystko na messie 🤍", "Zobacz sobie który to nasz dzień 💍"]
 body.addEventListener("click", () => {
     if (i === texts.length) {
         i2 += 1
