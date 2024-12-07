@@ -1,4 +1,3 @@
-
 let pElement = document.getElementById("p")
 let body = document.body
 let i = 1
@@ -8,13 +7,7 @@ let texts = [
 pElement.innerHTML = texts[0]
 body.addEventListener("click", () => {
     if (i === texts.length) {
-        i2 += 1
-        if (i2 === 1) {
-            pElement.innerHTML = new Date().getHours() + ":" + new Date().getMinutes()
-        }
-        else {
-            window.location.href = "https://przemek3woo.github.io/-/"
-        }
+        window.location.href = "https://przemek3woo.github.io/-/"
     }
     else {
         pElement.innerHTML = texts[i]
